@@ -1,12 +1,17 @@
 
+import ListNavbar from "../ListNavbar/ListNavbar"
 import "./Navbar.css"
 
-const Navbar = (props) =>{
+export const Navbar = () =>{
     return (
-        <div className="container-Navbar">
-            <a style={{color:"blue"}}>{props.title}</a>
-        </div>
+        <ul className="container-Navbar">
+            <ListNavbar title="Aros Cortos"/>
+            <ListNavbar title="Aros Lrgos"/>
+            <ListNavbar title="Collares Azules"/>
+            <ListNavbar title="Collares Rojos"/>
+            <ListNavbar title="Collares Negros"/>
+        </ul>
     )
 }
 
-export default Navbar
+// export default Navbar

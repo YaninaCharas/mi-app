@@ -1,14 +1,17 @@
 
-import Navbar from "./components/Navbar/Navbar";
+import Header from "./components/Header/Header";
+import ItemListContainer from "./components/ItemsListContainer/ItemListContainer";
+import Layout from "./components/Layout/Layout";
 
 function App() {
+let nombreUsuario = "Yanina"
+
   return (
     <div className="App">
-        <Navbar title="Logo"/> 
-        <Navbar title="Inicio"/> 
-        <Navbar title="Productos"/> 
-        <Navbar title="Quienes Somos"/> 
-        <Navbar title="Contacto"/> 
+      <Layout>
+        <Header/>  
+        <ItemListContainer usuario={nombreUsuario} apellido="Charas" edad={51} />
+      </Layout>
     </div>
   );
 }

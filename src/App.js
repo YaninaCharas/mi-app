@@ -1,20 +1,14 @@
 
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Que Bueno Usar React
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Navbar title="Logo"/> 
+        <Navbar title="Inicio"/> 
+        <Navbar title="Productos"/> 
+        <Navbar title="Quienes Somos"/> 
+        <Navbar title="Contacto"/> 
     </div>
   );
 }

@@ -1,9 +1,7 @@
-
-
 const ListNavbar = ({title}) => {
-  return (
-    <li style={{listStyle:"none",color: "blue"}}>{title}</li>
-  )
+    return (
+        <li style={{listStyle:"none",color: "darkblue"}}>{title}</li>
+    )
 }
 
 export default ListNavbar

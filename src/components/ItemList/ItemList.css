@@ -1,0 +1,8 @@
+.containerItem{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}

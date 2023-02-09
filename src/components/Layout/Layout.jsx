@@ -1,4 +1,3 @@
-
 import { BiCopyright } from 'react-icons/bi';
 
 const Layout = (props) => {

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { product } from "../../productosMock";
+import { productos } from "../../productosMock";
 import ItemList from "../ItemList/ItemList";
 
 const ItemListContainer = () => {
@@ -9,7 +9,7 @@ const ItemListContainer = () => {
   useEffect( ()=>{
     const task = new Promise((resolve, reject) => {
       setTimeout(() => {
-        resolve(product)
+        resolve(productos)
       }, 500);
     });
   

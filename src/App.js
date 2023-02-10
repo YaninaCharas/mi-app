@@ -7,17 +7,11 @@ import Cart from "./components/Cart/Cart";
 function App() {
 
   return (
-    // <div className="App">
-    //   <Header />
-    //   <ItemListContainer  />
-    //   <ItemDetailContainer />
-    // </div>
-
     <BrowserRouter>
       <Header/>
       <Routes>
         <Route path="/" element={<ItemListContainer />}/>
-        <Route path="/ItemDetailContainer" element={<ItemDetailContainer/>}/>
+        <Route path="/ItemDetailContainer/:name" element={<ItemDetailContainer />}/>
         <Route path="/cart" element={<Cart />}/>
         <Route path="*" element={<h4>Error 404 Not Fuond </h4>}/>
       </Routes>
@@ -26,5 +20,3 @@ function App() {
 }
 
 export default App;
-
-// ItemListContainer( )

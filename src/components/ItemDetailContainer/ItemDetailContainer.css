@@ -1,8 +1,6 @@
-.containerCard{
+.container{
     margin: 0.2rem;
     border: 2px solid violet;
-    width: 300px;
-    height: 300px;
     margin-bottom: 20px;
 }
 

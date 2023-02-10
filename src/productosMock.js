@@ -1,4 +1,5 @@
-export const product = [{
+export const productos = [
+  {
     id: 1,
     title: "Collar Zafiro",
     price: 2000,

@@ -1,3 +1,5 @@
 .container-Navbar{
-    text-align: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }

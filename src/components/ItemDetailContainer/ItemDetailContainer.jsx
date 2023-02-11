@@ -1,22 +1,20 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { productos } from '../../productosMock'
 import { useParams } from 'react-router-dom'
 import "./ItemDetailContainer.css"
 
 const ItemDetailContainer = () => {
 
-  const {name} = useParams()
-
+  const {id} = useParams()
   const [product, setProduct] = useState({})
-
 
   useEffect( () =>{
 
-    let productSelected = productos.find( prod => prod.id === Number(name))
+    let productSelected = productos.find( prod => prod.id === Number(id))
 
     setProduct (productSelected)
 
-  }, [])
+  }, [id])
 
   return (
     <div className='container'>

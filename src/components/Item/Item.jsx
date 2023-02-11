@@ -13,7 +13,7 @@ const Item = ({ element }) => {
         style={{ width: "100%", height: "200px"}}
       />
       <h3>${element.price}</h3>
-      <Link to={`/ItemDetailContainer/${element.id}`}>
+      <Link to={`/item/${element.id}`}>
         <button className="buttonItem">Ver Mas</button>
      </Link>
     </div>

@@ -11,7 +11,8 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<ItemListContainer />}/>
-        <Route path="/ItemDetailContainer/:name" element={<ItemDetailContainer />}/>
+        <Route path="/category/:categid" element={<ItemListContainer />}/>
+        <Route path="/item/:id" element={<ItemDetailContainer />}/>
         <Route path="/cart" element={<Cart />}/>
         <Route path="*" element={<h4>Error 404 Not Fuond </h4>}/>
       </Routes>

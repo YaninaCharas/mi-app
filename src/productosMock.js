@@ -23,7 +23,7 @@ export const productos = [
     price: 1500,
     stock: 5,
     description: "Collar realizado en Piedras Simil preciosa Color Negro Azabache con tintes verdes, largo regulable",
-    category: "Fiesta",
+    category: "Casual",
     img: "https://res.cloudinary.com/ds1zblpny/image/upload/v1675946981/Mis%20Imagenes/7_mx14ck.jpg",
   },
   {
@@ -41,7 +41,7 @@ export const productos = [
     price: 1500,
     stock: 5,
     description: "Aros cortos realizados en Piedras Simil preciosa Color Negro Azabache",
-    category: "Fiesta",
+    category: "Casual",
     img: "https://res.cloudinary.com/ds1zblpny/image/upload/v1675946981/Mis%20Imagenes/9_jwsqs7.jpg",
   },
   {
@@ -59,7 +59,7 @@ export const productos = [
     price: 2500,
     stock: 5,
     description: "Aros cortos realizados en Piedras Simil preciosa Color Dorado y cobre",
-    category: "Fiesta",
+    category: "Casual",
     img: "https://res.cloudinary.com/ds1zblpny/image/upload/v1675946982/Mis%20Imagenes/11_vozj5n.jpg",
   },
   {
@@ -68,7 +68,7 @@ export const productos = [
     price: 2500,
     stock: 5,
     description: "Aros cortos realizados en Piedras Simil preciosa Color Verde y negro",
-    category: "Fiesta",
+    category: "Casual",
     img: "https://res.cloudinary.com/ds1zblpny/image/upload/v1675946982/Mis%20Imagenes/12_mrayxg.jpg",
   },
 

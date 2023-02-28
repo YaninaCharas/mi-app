@@ -1,6 +1,19 @@
-.containerNavbar{
+.containerNavbar {
   display: flex;
   margin: 0;
   padding: 0;
   justify-content: space-around;
+}
+
+.navbar-item {
+  list-style: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.active-navbar {
+  list-style: none;
+  color: #7f669d;
+  color: blueviolet;
+  font-weight: bold;
 }

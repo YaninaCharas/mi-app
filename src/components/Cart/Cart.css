@@ -6,7 +6,9 @@
   justify-content: space-between;
   /* align-items: center; */
 }
-
+.cart-container > img {
+  width: 30%;
+}
 .container-items {
   width: 60%;
   display: flex;
@@ -67,9 +69,4 @@
 
 .cart-item-info > h2 {
   font-family: monospace;
-}
-
-.img {
-  width: 10%;
-  height: auto;
 }

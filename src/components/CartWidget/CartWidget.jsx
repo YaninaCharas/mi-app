@@ -16,9 +16,11 @@ const CartWidget = () => {
             color: "#7F669D",
           }}
         />
-        <div className="bubble-counter">
-          <span>{getTotalItems()}</span>
-        </div>
+        {getTotalItems() > 0 && (
+          <div className="bubble-counter">
+            <span>{getTotalItems() > 0 && getTotalItems()}</span>
+          </div>
+        )}
       </div>
     </Link>
   );

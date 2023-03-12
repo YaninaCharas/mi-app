@@ -1,24 +1,34 @@
-.containerItems{
-    margin: 0.2rem;
-    border: 2px solid violet;
-    margin-bottom: 20px;
+.containerItems {
+  margin: 0.2rem;
+  border: 2px solid violet;
+  margin-bottom: 20px;
 }
 
-h2{
-    text-align: center;
-    color: darkmagenta;
-    font-size: medium;
+h2 {
+  text-align: center;
+  color: darkmagenta;
+  font-size: medium;
 }
 
-h3{
-    text-align: center;
-    color: darkmagenta;
-    font-size: small;
+h3 {
+  text-align: center;
+  color: darkmagenta;
+  font-size: small;
 }
 
-img{
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    margin: 0 auto;
-    display: block;
+img {
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.buttonItem {
+  background-color: rgba(255, 192, 203, 0.559);
+  border-radius: 20px;
+  margin: 0 auto;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -10,12 +10,6 @@
 git clone https://github.com/YaninaCharas/mi-app.git
 ```
 
-```javascript
-const saludar = () => {
-  return "Bienvenidos";
-};
-```
+# Para levantar el proyecto es
 
 `npm start`
-
-!["imagen de react"](/public/logo192.png)

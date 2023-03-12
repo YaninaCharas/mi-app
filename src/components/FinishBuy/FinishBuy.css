@@ -1,0 +1,9 @@
+.container {
+  margin: 0.2rem;
+  border: 2px solid violet;
+  margin-bottom: 20px;
+}
+.link {
+  margin: 0 auto;
+  padding: 0;
+}
